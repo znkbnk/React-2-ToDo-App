@@ -42,26 +42,26 @@ Step 4: Create another state variable called todos
  to store an array of todo objects.
 Step 5: Define a function addTodo() that will add
  a new todo to the array.
-  1. It takes the text value as a parameter
+  1. It takes the text value as a parameter.
   2. It creates a new object with id, text, and
-  3.  completed properties
+      completed properties.
   4. It updates the todos array by copying the
-  existing array and appending the new todo object
+  existing array and appending the new todo object.
 Step 6: Define a handleSubmit() function that will
  run when the form is submitted.
-  1. Call e.preventDefault() to prevent default submit
-  2. Call the addTodo() function to add the new todo
-  3. Reset the text state to clear the input field
+  1. Call e.preventDefault() to prevent default submit.
+  2. Call the addTodo() function to add the new todo.
+  3. Reset the text state to clear the input field.
 Step 7: Pass the handleSubmit() function to the
  onSubmit handler of the form.
-Step 8: Define a deleteTodo() function that filters
+Step 8: Define a deleteTodo() function that filters.
  the todos array to remove the todo with the matching id.
 Step 9: Define a toggleComplete() function that maps
  through the todos array and flips the completed
  property if the id matches.
 Step 10: Render the input form, allowing us to type a todo title.
-  1. Set value to the text state
-  2. Call setText on change to update state
+  1. Set value to the text state.
+  2. Call setText on change to update state.
 Step 11: Render the TodoList component, passing the
  todos state, and the handler functions as props.
      

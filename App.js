@@ -4,9 +4,7 @@ import { useState } from 'react';
 import TodoList from './TodoList';
 
 export default function App() {
-
   const [text, setText] = useState('');
-
   const [todos, setTodos] = useState([]);
 
   const addTodo = text => {
